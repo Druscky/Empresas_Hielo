@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/agenda">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/cubo_hielo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cvID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/et_ID" />
+
+                <TextView
+                    android:id="@+id/tvEmpresa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvName_Surname"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDireccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvDireccion"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvHorario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvMail"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_weight="1"
+                        android:text="@string/tvPhone"
+                        android:textAlignment="textEnd"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cvPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="TextView"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/cvName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/cvSurname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/cvEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

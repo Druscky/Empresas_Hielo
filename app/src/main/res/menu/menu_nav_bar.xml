@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itAnadir"
+        android:icon="@drawable/ic_insert"
+        android:textSize="8sp"
+        android:title="@string/btnInsert" />
+    <item
+        android:id="@+id/itModificar"
+        android:icon="@drawable/ic_baseline_compare_arrows_24"
+        android:title="@string/btnModificar"
+        android:textSize="8sp"/>
+    <item
+        android:id="@+id/itBorrar"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/btnBorrar"
+        android:textSize="8sp"/>
+    <item
+        android:id="@+id/itConsultar"
+        android:icon="@drawable/ic_outline_remove_red_eye_24"
+        android:title="@string/btnConsultar"
+        android:textSize="8sp"/>
+</menu>
